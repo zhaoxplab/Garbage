@@ -1,4 +1,0 @@
-from wuxiang.Modular import imitate_login
-
-u = 'https://cy.wuuxiang.com/cy7center/canyin/report/a23/a23?_dc=1570610970000&reportType=&DIMProperty=&data=%7B%22mngType%22%3A%22%22%2C%22dateType%22%3A%22%22%2C%22beginDate%22%3A%222019-10-09%22%2C%22beginTime%22%3A%2210%3A00%22%2C%22endDate%22%3A%222019-10-10%22%2C%22endTime%22%3A%2210%3A00%22%2C%22shift%22%3A%22%22%2C%22week%22%3A%22%22%2C%22city%22%3A%22%22%2C%22brand%22%3A%22%22%2C%22shop%22%3A%22%22%2C%22curEmp%22%3A%22%5Cu8d75%5Cu7fd4%5Cu9e4f%22%2C%22curShop%22%3A%22%5Cu6cb3%5Cu5357%5Cu5df4%5Cu5e84%5Cu9910%5Cu996e%5Cu7ba1%5Cu7406%5Cu6709%5Cu9650%5Cu516c%5Cu53f8%22%2C%22cityNames%22%3A%22%22%2C%22shopNames%22%3A%22%22%7D&formCode=03020102&page=1&start=0&limit=25'
-print(imitate_login().get(u).json())
